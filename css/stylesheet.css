@@ -846,14 +846,14 @@ header .top-month {
 		background: unset;
 	}
 	#slider img.img-fluid {
-		height: 80vh;
+		height: 60vh;
 		object-fit: cover;
 	}
 	body, html{
 		overflow-x: hidden !important;
 	}
 	.container-fluid {
-		height: 100vh;
+		height: 60vh;
 		background: #1c575d;
 		position: relative;
 	}
