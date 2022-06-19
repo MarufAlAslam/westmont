@@ -846,7 +846,7 @@ header .top-month {
 		background: unset;
 	}
 	#slider img.img-fluid {
-		height: 100vh;
+		height: 80vh;
 		object-fit: cover;
 	}
 	body, html{
@@ -884,3 +884,18 @@ header .top-month {
 		top: -40px;
 	}
 }
+
+
+.container-fluid.pb-md-0 {
+	overflow: hidden;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+	display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  * {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
